@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h2 {
+    margin: 20px;
+}
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background: orange;
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2em;
+}
+.rgb {
+    /* rgb - red green blue */
+    background: rgb(242, 106, 2);
+    /* a - alpha reiskia spalvos ryskuma */
+    background: rgb(242, 106, 2, 0.7);
+    /* rgb skale - 255 */
+    background: rgb(100, 75, 120);
+
+}
+.hex {
+    background: #0ef202;
+}
+
+.color-1 {
+    background: #F08A5D;
+}
+.color-2 {
+    background:#393E46;
+}
+.color-3 {
+    background: #FF2E63;
+}
+
+img {
+    width: 90%;
+    margin: 20px;
+
+}
